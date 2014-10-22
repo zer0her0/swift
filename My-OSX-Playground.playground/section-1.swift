@@ -30,7 +30,7 @@ let fruitSumamry = "I have \(apples + oranges) pieces of fruit."
 let myName = "Andrew"
 let currentGallons: Float = 10
 let addedGallons: Float = 2.5
-let greeting = "Hello, \(myName). You have \(currentGallons + addedGallons) in your car."
+let myGreeting = "Hello, \(myName). You have \(currentGallons + addedGallons) in your car."
 // End of Experiment
 
 var shoppingList = ["catfish", "water", "tulips", "blue paint"]
@@ -41,8 +41,36 @@ var occupations = [
     "Kaylee": "Mechanic",
 ]
 occupations["Jayne"] = "Public Relations"
-
 let emptyArray = [String]()
 let emptyDictionary = Dictionary<String, Float>()
+shoppingList = [] // Went shopping and bought everything.
+
+let individualScores = [75, 43, 103, 87, 12]
+var teamScore = 0
+for score in individualScores {
+    if score > 50 {
+        teamScore += 3
+    } else {
+        teamScore += 1
+    }
+}
+teamScore
+
+var optionalString: String? = "Hello"
+optionalString == nil
+var optionalName: String? = "John Appleseed"
+var greeting = "Hello!"
+if let name = optionalName {
+    greeting = "Hello, \(name)"
+}
+// Experiment
+var newOptionalString: String? = "Hello"
+newOptionalString == nil
+var newOptionalName: String? = nil
+var newGreeting = "Hello!"
+if let newName = newOptionalName {
+    newGreeting = "Hello, \(newName)"
+}
+// End of Experiment
 
 
