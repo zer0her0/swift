@@ -73,4 +73,57 @@ if let newName = newOptionalName {
 }
 // End of Experiment
 
+let vegetable = "red pepper"
+switch vegetable {
+case "celery":
+    let vegetableComment = "Add some raisins and make ants on a log."
+case "cucumber", "watercress":
+    let vegetableComment = "What would make a good tea sandwich."
+case let x where x.hasSuffix("pepper"):
+    let vegetableComment = "Is it spicy \(x)?"
+default:
+    let vegetableComment = "Everything tastes good in soup."
+}
+// Experiment
+/* let newVegetable = "red pepper"
+switch newVegetable {
+case "celery":
+    let newVegetableComment = "Add some raisins and make ants on a log."
+case "cucumber", "watercress":
+    let newVegetableComment = "What would make a good tea sandwich."
+case let z where z.hasSuffix("pepper"):
+    let newVegetableComment = "Is it spicy \(z)?"
+} */
+// End of Experiment
+
+let interestingNumbers = [
+    "Prime": [2, 3, 5, 7, 11, 13],
+    "Fibonacci": [1, 1, 2, 3, 5, 8],
+    "Square": [1, 4, 9, 16, 25],
+]
+var largest = 0
+for (kind, numbers) in interestingNumbers {
+    for number in numbers {
+        if number > largest {
+            largest = number
+        }
+    }
+}
+largest
+
+// Experiment
+let interestingNumbers2 = [
+    "Prime2": [2, 3, 5, 7, 11, 13],
+    "Fibonacci2": [1, 1, 2, 3, 5, 8],
+    "Square2": [1, 4, 9, 16, 25],
+]
+var largest2 = 0
+for (kind, numbers) in interestingNumbers2 {
+    for number in numbers {
+        if number > largest2 {
+            largest2 = number
+        }
+    }
+}
+largest2
 
