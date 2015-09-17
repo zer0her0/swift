@@ -6,7 +6,7 @@ var str = "Hello, playground"
 
 // From Swift Book
 
-println("Hello, world")
+print("Hello, world")
 
 var myVariable = 42
 myVariable = 50
