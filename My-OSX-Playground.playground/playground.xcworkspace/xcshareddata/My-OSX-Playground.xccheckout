@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>764630F0-4C13-468B-9034-05D864B6D516</string>
 	<key>IDESourceControlProjectName</key>
-	<string>My-OSX-Playground</string>
+	<string>playground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>872C0E507885B94A69A5F6A362BE342395A901CA</key>
 		<string>https://github.com/zer0her0/swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>My-OSX-Playground.playground</string>
+	<string>My-OSX-Playground.playground/playground.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>872C0E507885B94A69A5F6A362BE342395A901CA</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/zer0her0/swift.git</string>
