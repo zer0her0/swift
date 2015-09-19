@@ -88,11 +88,11 @@ default:
 /* let newVegetable = "red pepper"
 switch newVegetable {
 case "celery":
-let newVegetableComment = "Add some raisins and make ants on a log."
+    let newVegetableComment = "Add some raisins and make ants on a log."
 case "cucumber", "watercress":
-let newVegetableComment = "What would make a good tea sandwich."
+    let newVegetableComment = "What would make a good tea sandwich."
 case let z where z.hasSuffix("pepper"):
-let newVegetableComment = "Is it spicy \(z)?"
+    let newVegetableComment = "Is it spicy \(z)?"
 } */
 // End of Experiment
 
